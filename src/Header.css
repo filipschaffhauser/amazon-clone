@@ -2,7 +2,7 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #131921;
+  background-color: #131921 !important;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -77,4 +77,10 @@
   margin-left: 10px;
   margin-right: 10px;
   color: white;
+}
+
+@media only screen and (max-width: 435px) {
+  .header__search {
+    display: none;
+  }
 }
